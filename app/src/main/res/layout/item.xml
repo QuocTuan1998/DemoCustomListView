@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgHinh"
+        android:background="@drawable/world"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imgHinh"
+        android:id="@+id/txtHinh"
+        android:text="Hà Nội"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:background="#004080"
+        />
+
+</RelativeLayout>
